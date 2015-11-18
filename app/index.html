@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en" ng-app="phoneBook" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <title>Phone Book</title>
+  <meta name="description" content="Phone Book Guide">
+</head>
+	<body>
+
+		<div ui-view></div>
+
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		
+		<script src="app.js"></script>
+		<script src="_controller.js"></script>
+		<script src="routes.js"></script>
+		<script src="services/CRUDService.js"></script>
+		<script src="controllers/HomeCtrl.js"></script>
+		<script src="controllers/AddCtrl.js"></script>
+		<script src="controllers/ShowCtrl.js"></script>		
+
+
+	</body>
+</html>

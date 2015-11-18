@@ -1,0 +1,90 @@
+/* GENERAL */
+.white-conatienr{
+	 background-color: white;
+    border-radius: 15px 15px 10px 10px;
+    -moz-border-radius: 15px 15px 10px 10px;
+    -webkit-border-radius: 15px 15px 10px 10px;
+    border: 0px solid #000000;
+}
+
+/* LANDING BANNER STYLES */
+.background-banner{
+
+	width: 100%;
+	height:450px;
+	background: url('http://i.huffpost.com/gen/2043270/images/o-GROUP-ON-MOBILE-PHONES-facebook.jpg');
+	background-size: cover;
+	position: absolute;
+
+}
+
+.landing-container{
+	position: relative;
+    top: 350px;
+
+    padding: 10px 20px 0px 20px;
+}
+.landing-container p{
+
+	padding:20px 0px;
+}
+/* LIST VIEW STYLES */
+.list-banner{
+
+	width: 100%;
+	height:450px;
+	background: url('http://unlock4less.com/images/gallery/background/CenterBanner.jpg');
+	background-size: contain;
+	position: absolute;
+	
+}
+.list-container{
+	position: relative;
+    top: 200px;
+        background-color: white;
+    border-radius: 15px 15px 10px 10px;
+    -moz-border-radius: 15px 15px 10px 10px;
+    -webkit-border-radius: 15px 15px 10px 10px;
+    border: 0px solid #000000;
+        padding: 10px 30px 0px 30px;
+}
+.list-description{
+
+	padding:20px 0px;
+
+}
+/* ADD/EDIT VIEW */
+
+
+
+.edit-banner{
+	width: 100%;
+	height:450px;
+	background: url('http://static3.depositphotos.com/1006354/209/i/950/depositphotos_2093195-Internet-technology.jpg');
+	background-size: cover;
+	position: absolute;
+}
+.add-banner{
+
+	width: 100%;
+	height:450px;
+	background: url('http://cdn3.collective-evolution.com/assets/uploads/2013/12/CELL-PHONE.jpg');
+	background-size: cover;
+	position: absolute;
+
+}
+.form-container{
+		position: relative;
+    top: 50px;
+	padding: 10px 40px 20px 40px;
+}
+.form-description{
+	padding: 20px 0px;
+}
+
+
+
+
+
+
+
