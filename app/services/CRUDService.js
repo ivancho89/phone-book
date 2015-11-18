@@ -22,11 +22,15 @@ app.factory('CRUDService', [ '$http', '$rootScope',
       },
       getAll: function(){
 
-         var phones = this.getPhonesJSON();
+        var phones = this.getPhonesJSON();
+        var array = [];
 
-        var array = $.map(phones, function(value, index) {
-            return [value];
-        });
+        if(phones){
+
+          array = $.map(phones, function(value, index) {
+              return [value];
+          });
+        }
 
         return array;
 
