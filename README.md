@@ -5,7 +5,7 @@ Simple Angular JS aplication with a basic CRUD.
 
 1. Clone the repository (git@github.com:ivancho89/phone-book.git) 
 2. Open a terminal and run "npm install.
-3. run the command "node server.js"
+3. Run the command "node server.js"
 4. Open a web browser and type http://localhost:1339/
 
 <h3>Persistence</h3>
